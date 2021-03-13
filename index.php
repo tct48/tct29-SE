@@ -26,6 +26,7 @@
 </head>
 
 <body>
+        Hello
     <?php
     include('./layouts/heading.php');
     ?>
