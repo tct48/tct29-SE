@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background-color: rgb(22, 22, 22); */
+    background-color: var(--nav-text);
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    height: 530px;
+    margin: 0px;
+    /* background: url("../images/BG.jpg") no-repeat center center; */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0px;
+}
+
+:root {
+    --navbar-color: rgba(215, 45, 40, 0.78);
+    --navbar-color-hover: rgba(215, 46, 40, 0.829);
+    --nav-text: rgb(237, 232, 204);
+    --copy-right: rgb(235, 186, 72);
+}
+
+.bg-copyright {
+    background: var(--copy-right)!important;
+}
+
+.text-copyright{
+    color:var(--copy-right)!important;
+}
+
+.bg-primary {
+    background-color: var(--navbar-color)!important;
+}
+
+.text-secondary {
+    color: var(--nav-text)!important;
+}
+
+.card {
+    border: 0px!important;
+    margin: 15px 0px;
+}
+
+button.bg-primary:hover {
+    background-color: var(--navbar-color-hover)!important;
+}
+
+.navbar {
+    background-color: var(--navbar-color) !important;
+    box-shadow: 80px rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    margin: 0px auto;
+}
+
+li.nav-item {
+    padding: 0px 20px;
+}
+
+.navbar a {
+    color: var(--nav-text) !important;
+}
+
+.active {
+    border-bottom: 4px solid var(--nav-text);
+}
+
+.navbar a:hover {
+    background-color: var(--navbar-color-hover)!important;
+    border-radius: 8px 8px 0px 0px;
+}
+
