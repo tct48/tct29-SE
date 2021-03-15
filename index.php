@@ -26,9 +26,8 @@
 </head>
 
 <body>
-        Hello
     <?php
-    include('./layouts/heading.php');
+    include('./layouts/header.php');
     ?>
     <!-- image -->
     <div class="banner">
