@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    header("Cache-control: private");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,6 +27,11 @@
     </style>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Connect Database -->
+    <?php
+        include("./models/connect.php");
+    ?>
 </head>
 
 <body>
